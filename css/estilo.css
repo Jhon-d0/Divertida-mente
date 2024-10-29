@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+}
+
+
+
+.central .butoes button{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.central .butoes #btraiva{
+    background: red;
+    color: white;
+}
+.central .butoes #btalegria{
+    background: yellow;
+    color: white;
+}
+.central .butoes #btnojinho{
+    background: green;
+    color: white;
+}
+.central .butoes #btTristeza{
+    background: blue;
+    color: white;
+}
+
+.central .butoes #btraiva:hover{
+    background: rgb(107, 0, 0);
+    color: white;
+    transform: translateY(-5px);
+}
+.central .butoes #btalegria:hover{
+    background: rgb(110, 110, 0);
+    color: white;
+    transform: translateY(-5px);
+}
+.central .butoes #btnojinho:hover{
+    background: rgb(0, 71, 0);
+    color: white;
+    transform: translateY(-5px);
+}
+.central .butoes #btTristeza:hover{
+    background: rgb(0, 0, 85);
+    color: white;
+    transform: translateY(-5px);
+}
